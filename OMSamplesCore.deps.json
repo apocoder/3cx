@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "OMSamplesCore/1.0.0": {
+        "dependencies": {
+          "3cxpscomcpp2": "2.0.0.0"
+        },
+        "runtime": {
+          "OMSamplesCore.dll": {}
+        }
+      },
+      "3cxpscomcpp2/2.0.0.0": {
+        "runtime": {
+          "3cxpscomcpp2.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OMSamplesCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "3cxpscomcpp2/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
