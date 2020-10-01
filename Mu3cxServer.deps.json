@@ -9,6 +9,7 @@
       "Mu3cxServer/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "redmine-api": "3.0.6",
           "3cxpscomcpp2": "2.0.0.0"
         },
         "runtime": {
@@ -20,6 +21,14 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "12.0.0.0",
             "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "redmine-api/3.0.6": {
+        "runtime": {
+          "lib/net461/redmine-net-api.dll": {
+            "assemblyVersion": "3.0.6.0",
+            "fileVersion": "3.0.6.0"
           }
         }
       },
@@ -45,6 +54,13 @@
       "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
       "path": "newtonsoft.json/12.0.3",
       "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "redmine-api/3.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jI+WERKaejoBtN6QAUudPCXjoVGE1FM0+PUaKgjO4xeVe87jo/HhI9bHpbYFirUTDefhUMSSyOOb/b4uKsZmWQ==",
+      "path": "redmine-api/3.0.6",
+      "hashPath": "redmine-api.3.0.6.nupkg.sha512"
     },
     "3cxpscomcpp2/2.0.0.0": {
       "type": "reference",
