@@ -1,15 +1,15 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v3.1",
+    "name": ".NETCoreApp,Version=v2.1",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    ".NETCoreApp,Version=v2.1": {
       "Mu3cxServer/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "redmine-api": "3.0.6",
+          "redmine-netcore10-api": "2.0.1",
           "3cxpscomcpp2": "2.0.0.0"
         },
         "runtime": {
@@ -24,11 +24,14 @@
           }
         }
       },
-      "redmine-api/3.0.6": {
+      "redmine-netcore10-api/2.0.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
         "runtime": {
-          "lib/net461/redmine-net-api.dll": {
-            "assemblyVersion": "3.0.6.0",
-            "fileVersion": "3.0.6.0"
+          "lib/netstandard2.0/RedmineApi.Core.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
           }
         }
       },
@@ -55,12 +58,12 @@
       "path": "newtonsoft.json/12.0.3",
       "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
-    "redmine-api/3.0.6": {
+    "redmine-netcore10-api/2.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jI+WERKaejoBtN6QAUudPCXjoVGE1FM0+PUaKgjO4xeVe87jo/HhI9bHpbYFirUTDefhUMSSyOOb/b4uKsZmWQ==",
-      "path": "redmine-api/3.0.6",
-      "hashPath": "redmine-api.3.0.6.nupkg.sha512"
+      "sha512": "sha512-DyP03q9TLOe2+hbRi+RPYwzL9S7HNTK4b2tx/pDwCljKgNWzjmaKOsNiS7FpQAxfn94hAqDyFvnw5GpZUV3afQ==",
+      "path": "redmine-netcore10-api/2.0.1",
+      "hashPath": "redmine-netcore10-api.2.0.1.nupkg.sha512"
     },
     "3cxpscomcpp2/2.0.0.0": {
       "type": "reference",
