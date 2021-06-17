@@ -1,0 +1,14 @@
+[Unit]
+Description=Mu3CXServer
+
+[Service]
+ExecStart=/usr/bin/dotnet Mu3cxServer.dll notifications
+WorkingDirectory=/root/work/3cx/
+User=root
+Group=root
+Restart=on-failure
+SyslogIdentifier=mu3cxserver
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
