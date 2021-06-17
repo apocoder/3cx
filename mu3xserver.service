@@ -3,7 +3,7 @@ Description=Mu3CXServer
 
 [Service]
 ExecStart=/usr/bin/dotnet Mu3cxServer.dll notifications
-WorkingDirectory=/root/work/3cx/
+WorkingDirectory=/root/works/3cx/
 User=root
 Group=root
 Restart=on-failure
